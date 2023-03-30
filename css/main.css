@@ -1,0 +1,61 @@
+body{
+    background-image: url("../img/starfield-1.jpg.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.mt-6{
+    margin-top: 3.5rem;
+}
+
+.bg-sand{
+    background-color: #A34112;
+}
+
+.bg-lightsand{
+    background-color: #a8735a;
+}
+
+.width_of_content{
+    width: 75% !important;
+    max-width: 1440px; !important;
+}
+
+.three_column{
+    column-count: 3;
+    text-align: justify;
+}
+
+.dropdown-item-changed {
+  /*display: block;*/
+  /*width: 100%;*/
+  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
+  /*clear: both;*/
+  /*font-weight: 400;*/
+  /*color: var(--bs-dropdown-link-color);*/
+  /*text-align: inherit;*/
+  /*text-decoration: none;*/
+  white-space: nowrap;
+  /*background-color: transparent;*/
+  /*border: 0;*/
+}
+
+@media (max-width: 1200px){
+    .three_column{
+        column-count: 2;
+    }
+}
+
+@media (max-width: 768px){
+    .mt-6{
+        margin-top: 8.5rem;
+    }
+    .width_of_content{
+        width: 100% !important;
+    }
+    .three_column{
+        column-count: 1;
+    }
+}
+
+
