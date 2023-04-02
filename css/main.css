@@ -34,8 +34,12 @@ body{
     max-width: 1440px; !important;
 }
 
+.header-pb{
+    padding-bottom: 6rem;
+}
+
 .main_blocks{
-    padding: 3.5rem 1.25rem 1rem;
+    padding: 0 1.25rem 1rem;
 }
 
 .three_column{
@@ -98,7 +102,14 @@ body{
 }
 
 footer{
-    height: min-content;
+    width: 75%;
+    margin: auto;
+}
+
+footer img{
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
 }
 
 .main_blocks h2{
@@ -127,6 +138,9 @@ footer{
     .width_of_content{
         width: 100% !important;
     }
+    footer{
+        width: 100%;
+    }
     .three_column{
         column-count: 1;
     }
@@ -154,7 +168,10 @@ footer{
         margin: auto;
     }
     .main_blocks{
-        padding-top: 8.5rem;
+        padding-top: 5.5rem;
+    }
+    .header-pb{
+        padding-bottom: 0;
     }
 }
 
