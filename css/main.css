@@ -35,7 +35,7 @@ body{
 }
 
 .main_blocks{
-    padding:60px 20px;
+    padding: 3.5rem 1.25rem 1rem;
 }
 
 .three_column{
@@ -47,19 +47,30 @@ body{
 /*    column-count: 1;*/
 /*}*/
 
+#Crew .card-group{
+
+}
+
+.card-group{
+
+}
+
 .card-style1 p, .card-style2  p{
     text-align: justify;
 }
 .card-style1, .card-style2{
-
+    max-width: 25rem;
 }
+
 .card-style1 img{
     object-fit: cover;
-    height: 350px;
+    object-position: top;
+    height: 30rem;
 }
 .card-style2 img{
     object-fit: cover;
-    min-height: 350px;
+    object-position: top;
+    height: 30rem;
 }
 
 #VideoBox{
@@ -101,6 +112,9 @@ footer{
     .three_column{
         column-count: 2;
     }
+    .card-style1, .card-style2{
+        min-width: 20rem;
+    }
 }
 
 @media (max-width: 989px) {
@@ -141,6 +155,9 @@ footer{
         column-count: 2;
         column-gap: 50px;
         margin: auto;
+    }
+    .main_blocks{
+        padding-top: 8.5rem;
     }
 }
 
