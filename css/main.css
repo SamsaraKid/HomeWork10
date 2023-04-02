@@ -51,12 +51,8 @@ body{
 
 }
 
-.card-group{
-
-}
-
 .card-style1 p, .card-style2  p{
-    text-align: justify;
+    text-align: left;
 }
 .card-style1, .card-style2{
     max-width: 25rem;
