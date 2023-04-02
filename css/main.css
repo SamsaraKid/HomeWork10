@@ -12,6 +12,19 @@ body{
     background-color: #A34112;
 }
 
+.bg-serenity{
+    background-color: #121C28;
+}
+
+.text-serenity{
+    color: #121C28;
+}
+
+.bg-dust{
+    background-color: #D7BA6E;
+}
+
+
 .bg-lightsand{
     background-color: #a8735a;
 }
@@ -21,24 +34,68 @@ body{
     max-width: 1440px; !important;
 }
 
+.main_blocks{
+    padding:60px 20px;
+}
+
 .three_column{
     column-count: 3;
     text-align: justify;
 }
 
-.dropdown-item-changed {
-  /*display: block;*/
-  /*width: 100%;*/
-  padding: var(--bs-dropdown-item-padding-y) var(--bs-dropdown-item-padding-x);
-  /*clear: both;*/
-  /*font-weight: 400;*/
-  /*color: var(--bs-dropdown-link-color);*/
-  /*text-align: inherit;*/
-  /*text-decoration: none;*/
-  white-space: nowrap;
-  /*background-color: transparent;*/
-  /*border: 0;*/
+/*.two_column_nav{*/
+/*    column-count: 1;*/
+/*}*/
+
+.card-style1 p, .card-style2  p{
+    text-align: justify;
 }
+.card-style1, .card-style2{
+
+}
+.card-style1 img{
+    object-fit: cover;
+    height: 350px;
+}
+.card-style2 img{
+    object-fit: cover;
+    min-height: 350px;
+}
+
+#VideoBox{
+    margin: auto;
+}
+#VideoBox iframe{
+    width: 100%;
+    height: 630px;
+}
+
+.linklogo{
+    width: 100px;
+    margin: 2% auto 2% auto;
+    border-radius: 50px;
+}
+
+.linklogo:hover{
+    background-color: rgba(255, 122, 27, 0.71);
+    box-shadow: rgb(255, 122, 27) 0 0 30px 10px;
+    border-radius: 50px;
+}
+
+#Onlinecinema li{
+    display: inline-block;
+    width: 33%;
+    list-style-type: none;
+    text-align: center;
+}
+
+footer{
+    height: min-content;
+}
+
+.main_blocks h2{
+        text-align: center;
+    }
 
 @media (max-width: 1200px){
     .three_column{
@@ -46,16 +103,47 @@ body{
     }
 }
 
-@media (max-width: 768px){
-    .mt-6{
-        margin-top: 8.5rem;
+@media (max-width: 989px) {
+    #navbar-top{
+        font-size: small;
+        min-height: 56px;
     }
+    #VideoBox iframe{
+        height: 330px;
+    }
+}
+@media (max-width: 834px){ /*768*/
     .width_of_content{
         width: 100% !important;
     }
     .three_column{
         column-count: 1;
     }
+    .card-style1, .card-style2{
+        text-align: justify;
+    }
+    .card-style1 img, .card-style2  img{
+        height: 350px;
+    }
+
 }
+
+@media (max-width: 576px){
+    #navbar-top {
+        font-size: unset;
+    }
+    .mt-6{
+        margin-top: 8.5rem;
+    }
+    .two_column_nav{
+        height: 7.5rem;
+        display: block;
+        column-count: 2;
+        column-gap: 50px;
+        margin: auto;
+    }
+}
+
+
 
 
